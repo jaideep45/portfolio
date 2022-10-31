@@ -25,7 +25,12 @@
 
 :root {
   --main-orange: #FE9256;
-  --dark-orange-text: #A65E36;
+  --dark-orange-text: #87380e;
+  --light-orange:#FFECE1;
+  --grey-0:#3F3F3F;
+  --grey-1:#4F4F4F;
+  --grey-3:#bababa;
+  --orange-white-text: #FFECE1;
   --wrapper-width: 800px;
   --wrapper-margin:24px;
   --body-font:16px
@@ -34,5 +39,13 @@
 .body-text{
   font-family: 'Inter-Regular',Optional;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 18px;
+  letter-spacing: -0.6px;
+}
+
+.body-text-bold{
+  font-family: 'Inter-Bold',Optional;
+  font-weight: normal;
+  font-size: 18px;
+  letter-spacing: -0.6px;
 }

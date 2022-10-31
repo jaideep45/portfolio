@@ -58,7 +58,9 @@
 .tile-description{
     width: fit-content;
     font-size: 14px;
-    color:rgb(67, 67, 67)
+    color:rgb(67, 67, 67);
+    font-family: 'Inter-Regular',Optional;
+  font-weight: normal;
 }
 
 @media only screen and (max-width: 848px) {

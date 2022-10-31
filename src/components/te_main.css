@@ -1,0 +1,64 @@
+.main-title-theme{
+    font-family: 'Inter-Black',Optional;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: -1.5px;
+    color: var(--orange-white-text);
+}
+
+.project-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-section-wrapper{
+    width: var(--wrapper-width);
+    margin-left: var(--wrapper-margin);
+    margin-right: var(--wrapper-margin);
+    display: flex;
+    flex-direction: column;
+}
+
+.slim-heading{
+    font-family: 'Inter-Medium';
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.special-text{
+    font-family: 'Inter-Medium';
+    font-size: 24px;
+    color: var(--main-orange);
+    letter-spacing: -1.2px;
+}
+
+.pointer{
+    background-color:var(--main-orange);
+    color:var(--grey-0);
+    width:28px;
+    height:28px;
+    border-radius:50%;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-pointer-line{
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 848px) {
+    .project-section-wrapper{
+        width: 100%;
+    }
+  }
+

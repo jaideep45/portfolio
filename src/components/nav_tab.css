@@ -1,21 +1,41 @@
-.nav-tab{
+.nav-tab-main{
     color: #FE9256;
     font-family: 'Inter-Bold';
     font-size: 14px;
     letter-spacing: 2.4px;
 }
 
+.nav-tab-main:hover{
+    color: #d4723e;
+}
+
+.nav-tab-main.selected{
+    color: #A65E36 !important
+}
+
+.selected-line-main{
+    margin-top: 10px;
+    background-color: #A65E36;
+    height: 2px;
+}
+
+.selected-line{
+    margin-top: 10px;
+    background-color: #A65E36;
+    height: 2px;
+}
+
+.nav-tab{
+    color: #FE9256;
+    font-family: 'Inter-Bold';
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
 .nav-tab:hover{
-    color: #f2884e;
+    color: #d4723e;
 }
 
 .nav-tab.selected{
     color: #A65E36 !important
-}
-
-.selected-line{
-    position: relative;
-    bottom: -10px;
-    background-color: #A65E36;
-    height: 2px;
 }

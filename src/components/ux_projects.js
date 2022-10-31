@@ -21,7 +21,7 @@ export default class UxProjects extends React.Component {
         </div>
         <div className="tile-content">
             <div className="tile-title" style={{color:strokeColor}}>{title}</div>
-            <div className="tile-description body-text">{description}</div>
+            <div className="tile-description">{description}</div>
         </div>
     </div>);
   }

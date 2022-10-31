@@ -4,14 +4,15 @@ import './assets/Inter-Medium.ttf';
 import './App.css';
 
 import Home from './components/home';
+import TeMain from './components/te_main';
 import {
   BrowserRouter,
   Routes,
   Route,
   useNavigate,
 } from "react-router-dom";
-import WithNavigate from './components/home';
-import Theme from './components/theme_main'
+
+
 
 function App(props) {
   return (
@@ -21,7 +22,7 @@ function App(props) {
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>} />
-        <Route path="theme/*" element={<Theme/>} />
+        <Route path="theme/*" element={<TeMain/>} />
       </Routes>
     </BrowserRouter>
     </div>

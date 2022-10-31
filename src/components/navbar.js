@@ -24,7 +24,7 @@ export default class Navbar extends React.Component {
         return (
             <div className="navbar">
                 <div className="nav-header">
-                <div className="navbar-wrapper">
+                <div className="navbar-wrapper"  style={{paddingBottom:'32px',paddingTop:'32px'}}>
                     <div className="main-title">
                         Hello, I'm Jai
                     </div>
@@ -51,9 +51,9 @@ export default class Navbar extends React.Component {
                     </div>
                 </div>
                 </div>
-                <div className="tab-bar">
+                <div className="tab-bar-main">
                     <div className = "tabs-wrapper">
-                    {Object.keys(tabs).map((t)=><NavTab display = {tabs[t]} selectId = {tabs[t]} key={t} selected={tabs[t]===this.props.selected} handleClick={this.handleClick}></NavTab>)}
+                    {Object.keys(tabs).map((t)=><NavTab main = {true} display = {tabs[t]} selectId = {tabs[t]} key={t} selected={tabs[t]===this.props.selected} handleClick={this.handleClick}></NavTab>)}
                     </div>
                 </div>
             </div>

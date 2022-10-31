@@ -7,7 +7,7 @@ import UxProjects from "./ux_projects";
 import { useNavigate } from "react-router-dom";
 
 export const tabs = {
-    ux: 'UX PROJECTS',
+    ux: 'PRODUCT DESIGN',
     shots: 'SHOTS',
     about: 'ABOUT',
 

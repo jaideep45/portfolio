@@ -13,8 +13,6 @@
     max-width: 1000px;
     margin-left:var(--wrapper-margin);
     margin-right:var(--wrapper-margin);
-    padding-top:32px;
-    padding-bottom:32px;
 }
 
 .nav-header{
@@ -30,7 +28,7 @@
     font-size: 40px;
     font-weight: 800;
     letter-spacing: -2px;
-    color: #FFECE1;
+    color: var(--orange-white-text);
     margin-bottom: 24px;
 }
 
@@ -49,14 +47,26 @@
     height: 36px;
 }
 
-.tab-bar{
+.tab-bar-main{
     width: 100%;
-    height: 40px;
+    height: min-content;
     display: flex;
+    padding-top: 10px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     background-color: #FFD2A9;
+}
+
+.tab-bar{
+    width: 100%;
+    height: min-content;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #E0E0E0;
 }
 
 .tabs-wrapper{
