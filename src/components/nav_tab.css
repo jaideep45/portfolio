@@ -1,0 +1,21 @@
+.nav-tab{
+    color: #FE9256;
+    font-family: 'Inter-Bold';
+    font-size: 14px;
+    letter-spacing: 2.4px;
+}
+
+.nav-tab:hover{
+    color: #f2884e;
+}
+
+.nav-tab.selected{
+    color: #A65E36 !important
+}
+
+.selected-line{
+    position: relative;
+    bottom: -10px;
+    background-color: #A65E36;
+    height: 2px;
+}

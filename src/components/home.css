@@ -1,0 +1,25 @@
+.home-content{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 40px;
+}
+
+.home-content-wrapper{
+    width: var(--wrapper-width);
+    margin-left: var(--wrapper-margin);
+    margin-right: var(--wrapper-margin);
+}
+
+@media only screen and (max-width: 848px) {
+    .tabs-wrapper {
+      width:100%
+    }
+    .navbar-wrapper {
+        width:100%
+      }
+    .home-content-wrapper{
+        width: 100%;
+    }
+  }
